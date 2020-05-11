@@ -1,0 +1,11 @@
+GET http://localhost:8080/Root/Users
+Authorization:Basic jakir jakir
+###
+POST http://localhost:8080/Root/Users
+Content-Type: application/json
+Authorization:Basic admin admin
+
+
+{"mdp": "123","pseudo": "2212","prenom": "p","idUser":7,"nom": "r"}
+
+###
